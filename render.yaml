@@ -1,9 +1,6 @@
 services:
   - type: web
     name: demo-backend
-    env: java
-    buildCommand: "./mvnw clean install"
-    startCommand: "java -jar target/*.jar"
-    envVars:
-      - key: JAVA_VERSION
-        value: 17
+    runtime: docker
+    repo: https://github.com/br0wnie25106/demo-backend
+    plan: free
