@@ -1,6 +1,0 @@
-services:
-  - type: web
-    name: demo-backend
-    runtime: docker
-    repo: https://github.com/br0wnie25106/demo-backend
-    plan: free
